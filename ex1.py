@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot  as plt
 import plotly
 # import streamlit
-#%%
+
+
 def load_data(filepath: str) -> pd.DataFrame:
     return pd.read_excel(filepath)
 #%%
