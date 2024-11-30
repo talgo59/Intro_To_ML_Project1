@@ -23,8 +23,8 @@ This project offers a robust data analysis pipeline for exploring Knesset electi
 2. OPT-2:
   * Clone the repository:
    ```bash
-   git clone [https://github.com/talgo59/Intro_To_ML_Project1.git]
-   cd [repository-directory]
+   git clone https://github.com/talgo59/Intro_To_ML_Project1.git
+   cd Intro_To_ML_Project1
    ```
 * Install required dependencies:
    ```bash
