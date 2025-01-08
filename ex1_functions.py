@@ -6,6 +6,9 @@ import matplotlib.pyplot  as plt
 # 	Load the Dataset (10 points)
 ################################
 def load_data(filepath: str) -> pd.DataFrame:
+    path_split = filepath.lower().split('.')
+    if path_split[-1]=='csv':
+        return pd.read_csv(filepath,encoding = 'UTF-8')
     return pd.read_excel(filepath)
 
 
